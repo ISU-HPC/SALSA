@@ -3,6 +3,9 @@ FROM: ISU-HPC/centos7-base
 %labels
 AUTHOR Yasasvy Nanyam ynanyam@iastate.edu
 
+%help
+A singularity container for SALSA - A tool to scaffold long read assemblies with Hi-C data  
+
 %post
 yum install -y epel-release
 yum install -y python2-devel boost boost-devel
