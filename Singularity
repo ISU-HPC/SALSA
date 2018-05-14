@@ -1,3 +1,4 @@
+bootstrap: shub
 FROM: ISU-HPC/centos7-base
 
 %labels
